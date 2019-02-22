@@ -1,0 +1,340 @@
+body{
+    background-color: #f8dc00
+}
+.user_profile > div{
+    background-color: #f8f100;
+    margin-top: 100px;
+    padding-bottom: 50px
+}
+.user_profile .nav_bar .nav_bar_item{
+    padding: 25px;
+    font-family: "Raleway";
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #81bdff;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px
+}
+.user_profile_item{
+    margin-top: 50px
+}
+.user_profile .nav_bar .nav_bar_item + .nav_bar_item{
+    margin-left: 25px
+}
+.user_profile .nav_bar .nav_bar_item:hover{
+    background-color: white
+}
+.user_profile .nav_bar .nav_bar_item img{
+    width: 30px;
+    height: 45px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px
+}
+.profile_item .profile_image{
+    border: white 5px solid;
+    padding-top: 5px                         
+}
+.profile_item .profile_image img{
+    width: 100%;
+    height: 400px;
+    transform: skewY(20deg);                             
+}
+.profile_item .profile_name{
+    font-family: 'Raleway';
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #81bdff;
+    font-weight: bold;
+    font-size: 45px;
+    color: black;
+}
+.profile_item .profile_job{
+    font-family: 'Raleway';
+    text-transform: none;
+    letter-spacing: 0px;
+    color: #81bdff;
+    font-weight: bold;
+    font-size: 25px;
+    color: black;                               
+}
+.profile_item .profile_lst_informations{
+    padding: 0px;list-style: none;margin-top: 10px
+}
+.profile_item .profile_lst_informations li{
+    display: inline-block
+}
+.profile_item .profile_lst_informations .icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: white;
+    padding: 5px                                
+}
+.profile_item .profile_lst_informations .icon img{
+    width: 100%;
+    height: 100%
+}
+.profile_item .profile_lst_informations .label{
+    font-family: 'Raleway';
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+.profile_item .profile_lst_informations .content{
+    font-family: 'Raleway';
+    text-transform: none;
+    letter-spacing: 0px;
+    color: black;                                
+}
+.resume_item .resume_item_header{
+    margin-bottom: 25px;
+    margin-top: 25px
+}
+.resume_item .resume_item_header .icon{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 100px;
+    padding: 5px;
+    margin-right: 15px                                     
+}
+.resume_item .resume_item_header .icon img{
+    width: 100%;
+    height: 100%
+}
+.resume_item .resume_item_header .label{
+    display: inline-block;
+    font-family: 'Raleway';
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;                                     
+}
+.resume_item .liste_functions_item{
+    position: relative;
+    padding-left: 10px;
+    margin-left: 10px;
+    position: relative
+}
+.resume_item .liste_functions_item .point{
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 100px                                                                   
+}
+.resume_item .liste_functions_item .content{
+    width: 100%;
+    border-left: white 5px solid;
+    padding-left: 43px                                     
+}
+.resume_item .liste_functions_item .content .label{
+    font-family: 'Raleway';
+    text-transform: none;
+    letter-spacing: 0px;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+.resume_item .liste_functions_item .content .date{
+    text-align: right;
+    font-family: 'Raleway';
+}
+.resume_item .liste_functions_item .content .description{
+    font-family: 'Raleway';
+    text-transform: none;
+    letter-spacing: 0px;
+    color: black;
+    font-size: 18px
+}
+.resume_item .liste_functions_item .content .resume_item_progress .progress{
+    width: 100%;
+    border-radius: 100px;
+    background-color: black;
+    height: 10px
+}
+.resume_item .liste_functions_item .content .resume_item_progress .progress-bar{
+    background-color: white;
+    border-radius: 100px
+}
+.resume_item .liste_functions_item .content .puissance{
+    text-align: right;
+    font-family: 'Raleway';
+    font-weight: bolder;
+    padding-top: 5px
+} 
+.services_item .item{
+    margin: 10px;
+    height: 250px;
+    background-color: white;
+    font-family: 'Raleway';
+    text-align: center
+}
+.services_item .item img{
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+.work_item .item{
+    height: 250px;
+    background-color: white;
+    border: white 5px solid;
+    margin: 10px
+}
+.work_item .item img{
+    width: 100%;
+    height: 100%
+}
+.testimonial_item .item{
+    height: 250px;
+    text-align: center;
+    font-family: 'Raleway';
+}
+.testimonial_item .item > div{
+    position: relative;
+    padding-top: 40px
+}
+.testimonial_item .item .icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin: auto
+}
+.testimonial_item .item .icon > div{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 100px;
+    padding: 5px;
+}
+.testimonial_item .item .icon img{
+    width: 100%;
+    height: 100%
+}
+.testimonial_item .item .description{
+    background-color: white;
+    padding: 15px;
+}
+.contact_item .location_image img{
+    width: 100%;
+    height: 300px;
+    margin-top: 12px
+}
+.contact_item .social_media{
+    margin-top: 25px;
+    margin-bottom: 20px
+}
+.contact_item .social_media img{
+    display: inline-block;
+    margin-right: 10px;
+    width: 35px;
+    height: 35px
+}
+.contact_item .user_description_item{
+    display: block;
+    padding: 0px;
+    list-style: none;
+    margin-bottom: 10px
+}
+.contact_item .user_description_item li{
+    display: inline-block
+}
+.contact_item .user_description_item .icon{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    padding: 5px
+}
+.contact_item .user_description_item .icon img{
+    width: 100%;
+    height: 100%;
+}
+.contact_item .user_description_item .label{
+    font-family: 'Raleway';
+    text-transform: none;
+    letter-spacing: 0px;
+    color: black;
+}
+.contact_item .user_description_item .content{
+    font-family: 'Raleway';
+    text-transform: none;
+    letter-spacing: 0px;
+    color: black;
+}
+.contact_item input{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    border: none;
+    padding-left: 15px
+}
+.contact_item textArea{
+    width: 100%;
+    border: none;
+    height: 200px
+}
+.contact_item input[type=submit]{
+    width: 150px;
+    background-color: black;
+    border-radius: 100px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer
+}
+#mobile_navs{
+    display: none;
+    width: 100%;
+    margin: 0px;
+    background-color: black;
+    font-family: 'Raleway';
+    text-transform: none;
+    letter-spacing: 0px;
+    color: white;
+    padding: 15px
+}
+#mobile_navs .menu_icon img{
+    width: 30px;
+    height: 30px
+}
+@media(max-width: 900px){
+    #mobile_navs{
+        display: block
+    }
+    .user_profile .nav_bar{
+        width: 100%;
+        background-color: white;
+        position: absolute;
+        top: 60px;
+        z-index: 4000;
+        display: none
+    }
+    .user_profile .nav_bar .nav_bar_item + .nav_bar_item{
+        margin-left: 0px
+    }
+}
+
+
+
+
+
+
+
